@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>iTweet</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1> <span>iTweet</span> <img src="./resource/logo.png" alt="iTweet logo"> </h1>
+        <div class="card">
+            <form action="/tweets" id="tweetForm">
+                <input type="text" name="username" placeholder="Enter Username" required="">
+                <input type="text" name="tweet" placeholder="Write your Tweet" required="">
+                <button>Post Tweet</button>
+            </form>
+        </div>
+        <div class="container2">
+            <h2>Tweets:</h2>
+            <ul id="tweets"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
