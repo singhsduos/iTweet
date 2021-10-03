@@ -15,7 +15,7 @@ Tweet your thought in iTweet
 
 
 
-## Dem
+## Demo Video
 
 https://user-images.githubusercontent.com/32032008/135750926-fd17cd4b-b2cc-4192-aad1-e528e9e6462e.mp4
 
